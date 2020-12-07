@@ -1,0 +1,31 @@
+POST http://localhost:8080/ HTTP/1.1
+content-type: application/json
+
+{
+        "slug": "fghij"
+}
+
+###
+
+
+GET http://localhost:8080/ HTTP/1.1
+
+###
+
+GET http://localhost:8080/5f879cd8a30e484320d33b1a HTTP/1.1
+
+###
+
+PUT http://localhost:8080/ HTTP/1.1
+content-type: application/json
+
+{
+        "id": "5f879cd8a30e484320d33b1a",
+        "slug": "pqrst"
+}
+
+###
+
+DELETE  http://localhost:8080/5f879dd0d5044b43f5ff6ee4 HTTP/1.1
+
+###
